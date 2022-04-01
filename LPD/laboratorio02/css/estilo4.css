@@ -1,0 +1,123 @@
+/* Trabajando varios estilos con identificacores */
+/* aplicar un color de fondo */
+body{
+    background-color: silver;
+}
+
+#contenedor{
+    background-color:white;
+}
+
+/* agregamos una imagen de fondo a un parrafo */
+#parrafoimagen{
+    background-image: url("/img/foto1.jpg");
+}
+
+/* agregamos un color de fondo y le agregamos una transparencia */
+.parrafotransparencia{
+    background-color: blueviolet;
+    opacity:75%;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero que la imagen se repita */
+.parraforepetir{
+    background-image: url("/img/html5ycss3.png");
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero que la imagen no se repita */
+.parrafonorepetir{
+    background-image: url("/img/html5ycss3.png");
+    background-repeat:no-repeat;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero que cambiar el tamaño de la imagen */
+.parrafotamaño{
+    background-image: url("/img/html5ycss3.png");
+    background-size: 30px;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero repetir la imagen de forma horizontal */
+.parraforepetirhorizontal{
+    background-image: url("/img/html5ycss3.png");
+    background-size: 30px;
+    background-repeat:repeat-x;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero repetir la imagen de forma vertical */
+.parraforepetirvertical{
+    background-image: url("/img/html5ycss3.png");
+    background-size: 30px;
+    background-repeat:repeat-y;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero que la imagen este a la izquierda */
+.parraforalinearizquierda{
+    background-image: url("/img/html5ycss3.png");
+    background-size: 30px;
+    background-repeat:no-repeat;
+    background-position:left;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero que la imagen este a la derecha */
+.parraforalinearderecha{
+    background-image: url("/img/html5ycss3.png");
+    background-size: 30px;
+    background-repeat:no-repeat;
+    background-position:right;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero que la imagen este al centro */
+.parraforalinearcentro{
+    background-image: url("/img/html5ycss3.png");
+    background-size: 30px;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero que la imagen este en la parte superior */
+.parraforalinearsuperior{
+    background-image: url("/img/html5ycss3.png");
+    background-size: 30px;
+    background-repeat:no-repeat;
+    background-position:top;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero que la imagen este en la parte inferior */
+.parraforalinearinferior{
+    background-image: url("/img/html5ycss3.png");
+    background-size: 30px;
+    background-repeat:no-repeat;
+    background-position:bottom;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero que la imagen este en la parte superior derecha */
+.parraforalinearsuperiorderecha{
+    background-image: url("/img/html5ycss3.png");
+    background-size: 30px;
+    background-repeat:no-repeat;
+    background-position:top right;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero que la imagen este en la parte superior izquierda */
+.parraforalinearsuperiorizquierda{
+    background-image: url("/img/html5ycss3.png");
+    background-size: 30px;
+    background-repeat:no-repeat;
+    background-position:top left;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero que la imagen este en la parte inferior derecha */
+.parraforalinearinferiorderecha{
+    background-image: url("/img/html5ycss3.png");
+    background-size: 30px;
+    background-repeat:no-repeat;
+    background-position:bottom right;
+}
+
+/* agregamos una imagen de fondo en el parrafo pero quiero que la imagen este en la parte inferior izquierda */
+.parraforalinearinferiorizquierda{
+    background-image: url("/img/html5ycss3.png");
+    background-size: 30px;
+    background-repeat:no-repeat;
+    background-position:bottom left;
+}

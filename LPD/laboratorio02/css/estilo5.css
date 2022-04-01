@@ -1,0 +1,129 @@
+body{
+    background-color: darkblue;
+}
+.contenedor{
+    background-color:white;
+}
+/* Existen varios tipos de bordes los cuales los mencionaremos a continuacion: 
+1.- dotted
+2.- dashed
+3.- solid 
+4.- double 
+5.- groove 
+6.- ridge 
+7.- inset 
+8.- outset 
+9.- none 
+10.- hidden */
+.borde1{
+    border-style: dotted;
+}
+.borde2{
+    border-style: dashed;
+}
+.borde3{
+    border-style: solid;
+}
+.borde4{
+    border-style: double;
+}
+.borde5{
+    border-style: groove;
+}
+.borde6{
+    border-style: ridge;
+}
+.borde7{
+    border-style: inset;
+}
+.borde8{
+    border-style: outset;
+}
+.borde9{
+    border-style: none;
+}
+.borde10{
+    border-style: hidden;
+}
+/* Tambien podemos agregar bordes combinados para ello podemos realizar lo siguiente: 
+11.- border-style: (arriba y abajo) (izquierda y derecha)
+12.- border-style: (arriba) (izquierda y derecha)(abajo)
+13.- border-style: (arriba) (derecha)(abajo)(izquierda) */
+.borde11{
+    border-style:dashed groove;
+}
+.borde12{
+    border-style:double dotted solid;
+
+}
+.borde13{
+    border-style:dashed solid dotted double;
+}
+
+/* Tambien podemos cambiar el ancho del borde */
+.borde12{
+    border-style: dashed;
+    border-width:10px;
+}
+.borde13{
+    border-style: dashed;
+    border-width:thick;
+}
+.borde14{
+    border-style: double;
+    border-width:medium;
+}
+.borde15{
+    border-style: solid;
+    border-width:10px 20px;
+}
+.borde16{
+    border-style: solid;
+    border-width:10px 20px 30px;
+}
+.borde17{
+    border-style: solid;
+    border-width:10px 20px 30px 40px;
+}
+/* Aplicamos color al borde */
+.borde18{
+    border-style:solid;
+    border-color: blue;
+}
+.borde19{
+    border-style:dashed;
+    border-color: blue yellow;
+}
+.borde20{
+    border-style:double;
+    border-color: blue yellow red;
+}
+.borde21{
+    border-style:groove;
+    border-color: blue yellow red green;
+}
+
+/* Tambien podemos aplicar bordes espeficos:
+22.- left 
+23.- right 
+24.- top 
+25.- bottom */
+.borde22{
+    border-left-style: dashed;
+}
+.borde23{
+    border-right-style: solid;
+}
+.borde24{
+    border-top-style: groove;
+}
+.borde25{
+    border-bottom-style: double;
+}
+
+/* Tambien podemos redondear los border */
+.borde26{
+    border-style:solid;
+    border-width: 20px;
+    border-radius: 15px;
+}

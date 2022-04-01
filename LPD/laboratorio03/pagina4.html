@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 4</title>
+    <script type="text/javascript">
+        //Lectura de datos
+        //Consiste en obtener valores que se van asignar a las variables desde el teclado
+
+        //sintaxis
+        //prompt("mensaje");
+
+        //Observacion: todo valor que se ingresa por un prompt se convierte en texto, por lo cual se debe de realizar una conveersion de datos
+
+        //Convertir de texto a un numero entero
+        //parseInt("texto");
+
+        //Convertir de texto a un numero real
+        //parseFloat("texto");
+
+        //Convertir un numero( entero o real) a texto
+        //variablenumerica.toString();
+
+         //Ejemplo 1: Desarrollar una aplicacion que permita calcular la suma de dos numeros
+        //declaramos variables
+        var n1,n2,sum;
+        //inicializamos
+        n1=0; n2=0; sum=0;
+        //capturando los valores
+        n1=parseInt(prompt("Ingresa el numero 1:"));
+        n2=parseInt(prompt("Ingresa el numero 2:"));
+        //realizamos la operacion
+        sum=n1+n2;
+        //mostramos los resultados
+        alert("La suma es: "+sum);
+        document.write("La suma es: "+sum+"<br>");
+
+        //Ejemplo2: Desarrollar una aplicacion que permita calcular el promedio de 4 notas
+
+        //declarando variables
+        var n1=0;
+        var n2=0;
+        var n3=0;
+        var n4=0;
+        var prom=0;
+
+        //capturando valores
+        n1=parseFloat(prompt("Ingrese la nota 1"));
+        n2=parseFloat(prompt("Ingrese la nota 2"));
+        n3=parseFloat(prompt("Ingrese la nota 3"));
+        n4=parseFloat(prompt("Ingrese la nota 4"));
+
+        //realiznado operaciones
+        prom=(n1+n2+n3+n4)/4;
+
+        //mostramos resultados
+        alert("El promedio es: "+prom);
+        document.write("El promedio es: "+prom+"<br>");
+
+         //Ejemplo 3: Desarrollar una aplicacion que permita mostrar un saludo con tu nombre
+
+        //declarando variables
+        var nom="";
+
+        //capturando valores
+        nom=prompt("Ingresa el nombre:");
+
+        //mostrando el saludo
+        alert("Hola como estas, "+nom);
+        document.write("Hola como estas, "+nom+"<br>");
+
+
+        //Ejemplo 4: Desarrollar una aplicacion que permita calcular el sueldo final de un trabajador si se sabe que su sueldo basico es  y demas se calcula una bonificacion del 7% y un descuento del 4%.
+        //Mostrar todos los datos
+        //declaracion de variables
+        var sb=0,bon=0,des=0,sf=0;
+
+        //capturando valores
+        sb=parseFloat(prompt("Ingrese el sueldo basico:"));
+
+        //realizando operaciones
+        bon=sb*0.07;
+        des=sb*0.04;
+        sf=sb+bon-des;
+
+        //mostrando resultados
+        alert("El sueldo basico es: "+sb);
+        alert("La bonificacion es: "+bon);
+        alert("El descuento es: "+des);
+        document.write("El sueldo final es: "+sf);
+        document.write("El sueldo basico es: "+sb+"<br>");
+        document.write("La bonificacion es: "+bon+"<br>");
+        document.write("El descuento es: "+des+"<br>");
+        document.write("El sueldo final es: "+sf+"<br>");
+
+        //Ejemplo 5: Desarrollar una aplicacion que permita calcular el total a pagar por la compra de un producto, si se sabe que la cantidad se debe de ingresar y el precio del producto se ingresara tambien. Adicional se le agregara el igv que es el 18% del subtotal. Mostrar todos los resultados
+        //declarando variables
+        var can=0,pre=0,sbt=0,igv=0,tot;
+
+        //asignando valores
+        can=parseInt(prompt("Ingresa la cantidad:"));
+        //can=parseFloat(prompt("Ingresa la cantidad:"));
+        pre=parseFloat(prompt("Ingresa el precio del producto"));
+
+        //realizando operaciones
+        sbt=pre*can;
+        igv=sbt*0.18;
+        tot=sbt+igv;
+
+        //mostrando resultados
+        alert("El subtotal es: "+sbt);
+        alert("El igv es: "+igv);
+        alert("El total es: "+tot);
+        document.write("El subtotal es: "+sbt+"<br>");
+        document.write("El igv es: "+igv+"<br>");
+        document.write("El total es: "+tot+"<br>");
+
+        //Ejemplo 6: Desarrollar una aplciacion que permita ingresar el numero de horas trabajadasde un empleado, si se sabe que tiene un costo po hora y se te pide calcular el sueldo final , si se tiene que calcular una bonificacion del 6% y un descuento del 3%. Mostrar todos los resultados
+
+        //declarando variables
+        var nh=0,ch=0,sb=0,bon=0,des=0,sf=0;
+
+        //capturando valores
+        nh=parseFloat(prompt("Ingrese el numero de horas"));
+        ch=parseFloat(prompt("Ingrese el costo por hora"));
+
+        //realizando operaciones
+        sb=nh*ch;
+        bon=sb*0.06;
+        des=sb*0.03;
+        sf=sb+bon-des;
+
+        //mostranso resultados
+        alert("El sueldo basico es: "+sb);
+        alert("La bonificacion es: "+bon);
+        alert("El descuento es: "+sb);
+        alert("El sueldo final es: "+sb);
+        document.write("El sueldo basico es: "+sb+"<br>");
+        document.write("La bonificacion es: "+bon+"<br>");
+        document.write("El descuento es: "+des+"<br>");
+        document.write("El sueldo final es: "+sf+"<br>");
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+/* Nosotros trabajamos con clases cuando necesitamos aplicar estilos de forma global, esto quiere decir que creamos el estilo y se lo podemos asignar a varias etiquetas a la vez */
+/* Para poder trabajar con clases utilizamos el . */
+/* Estilos para las etiquetas */
+h1{
+    color: red;
+}
+hr{
+    height:15px;
+    background-color: yellow;
+}
+h2{
+    color:green;
+    font-family: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: darkblue;
+    text-align: justify;
+}
+
+/* Estilos para las clases */
+.subtitulo1{
+    color:blueviolet;
+    font-style: italic;
+}
+
+.parrafo1{
+    color:darkgreen;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}

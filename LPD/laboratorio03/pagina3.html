@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - Pagina 3</title>
+    <script type="text/javascript">
+        //variables
+        //Tepermite almacenar un valor en la memoria RAM, el cual puede cambiar durante la ejecucion del programa
+        //VAR -> permite declarar variables
+        //Sintaxis
+        //var nombrevariable;
+        //Tipos de Datos
+        //Entero -> =0 
+        //Real  -> =0
+        //Texto -> =""
+        //Logicos -> =false
+        //Ejemplo 1: Desarrollar una aplicacion que permita calcular la suma de los 8 y 7
+        //declaramos variables
+        var n1,n2,sum;
+        //inicializamos
+        n1=0; n2=0; sum=0;
+        //asignamos los valores
+        n1=8;
+        n2=7;
+        //realizamos la operacion
+        sum=n1+n2;
+        //mostramos los resultados
+        alert("La suma es: "+sum);
+        document.write("La suma es: "+sum+"<br>");
+
+        //Ejemplo2: Desarrollar una aplicacion que permita calcular el promedio de los numero 14,15,16 y 17
+
+        //declarando variables
+        var n1=0;
+        var n2=0;
+        var n3=0;
+        var n4=0;
+        var prom=0;
+
+        //asignando valores
+        n1=14;
+        n2=15;
+        n3=16;
+        n4=17;
+
+        //realiznado operaciones
+        prom=(n1+n2+n3+n4)/4;
+
+        //mostramos resultados
+        alert("El promedio es: "+prom);
+        document.write("El promedio es: "+prom+"<br>");
+
+        //Ejemplo 3: Desarrollar una aplicacion que permita mostrar un saludo con tu nombre
+
+        //declarando variables
+        var nom="";
+
+        //asignando valores
+        nom="Mario";
+
+        //mostrando el saludo
+        alert("Hola como estas, "+nom);
+        document.write("Hola como estas, "+nom+"<br>");
+
+
+        //Ejemplo 4: Desarrollar una aplicacion que permita calcular el sueldo final de un trabajador si se sabe que su sueldo basico es 1000 soles y demas se calcula una bonificacion del 7% y un descuento del 4%.
+        //Mostrar todos los datos
+        
+        //declaracion de variables
+        var sb=0,bon=0,des=0,sf=0;
+
+        //asignacion de valores
+        sb=1000;
+
+        //realizando operaciones
+        bon=sb*0.07;
+        des=sb*0.04;
+        sf=sb+bon-des;
+
+        //mostrando resultados
+        alert("El sueldo basico es: "+sb);
+        alert("La bonificacion es: "+bon);
+        alert("El descuento es: "+des);
+        document.write("El sueldo final es: "+sf);
+        document.write("El sueldo basico es: "+sb+"<br>");
+        document.write("La bonificacion es: "+bon+"<br>");
+        document.write("El descuento es: "+des+"<br>");
+        document.write("El sueldo final es: "+sf+"<br>");
+
+        //Ejemplo 5: Desarrollar una aplicacion que permita calcular el total a pagar por la compra de un producto, si se sabe que la cantidad es 10 y el precio del producto es 125.80 y tambien se le agregara el igv que es el 18% del subtotal. Mostrar todos los resultados
+        
+        //declarando variables
+        var can=0,pre=0,sbt=0,igv=0,tot;
+
+        //asignando valores
+        can=10;
+        pre=125.80
+
+        //realizando operaciones
+        sbt=pre*can;
+        igv=sbt*0.18;
+        tot=sbt+igv;
+
+        //mostrando resultados
+        alert("El subtotal es: "+sbt);
+        alert("El igv es: "+igv);
+        alert("El total es: "+tot);
+        document.write("El subtotal es: "+sbt+"<br>");
+        document.write("El igv es: "+igv+"<br>");
+        document.write("El total es: "+tot+"<br>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

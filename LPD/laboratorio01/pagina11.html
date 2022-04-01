@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - Pagina 11</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <h2>Combinar Celdas</h2>
+    <h3>Combinar Filas</h3>
+    <!-- El atributo rowspan="#" te permite combinas "n" cantidad de filas -->
+    <h4>Ejemplo 1</h4>
+    <table border="1" cellspacing="2" cellpadding="4">
+        <tr>
+            <td rowspan="2">C1 y C4</td>
+            <td>C2</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>C5</td>
+            <td rowspan="2">C6 y C9</td>
+        </tr>
+        <tr>
+            <td>C7</td>
+            <td>C8</td>
+        </tr>
+    </table>
+    <h3>Combinar Columnas</h3>
+    <!-- El atributo esl colspan="#" te permite combinar "n" cantidades de columnas -->
+    <table border="1" cellspacing="2" cellpadding="4">
+        <tr>
+            <td colspan="2">C1 y C2</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td colspan="3">C4 y C5 y C6</td>
+        </tr>
+        <tr>
+            <td>C7</td>
+            <td colspan="2">C8 y C9</td>
+        </tr>
+    </table>
+    <h3>Combinar Filas y Columnas</h3>
+    <table border="1" cellspacing="10" cellpadding="20">
+        <tr>
+            <td rowspan="2">C1 y C6</td>
+            <td colspan="3">C2 y C3 y C4</td>
+            <td rowspan="2">C5 y C10</td>
+        </tr>
+        <tr>
+            <td>C7</td>
+            <td>C8</td>
+            <td>C9</td>
+        </tr>
+        <tr>
+            <td colspan="2">C11 y C12</td>
+            <td rowspan="2">C13 y C18</td>
+            <td colspan="2">C14 y C15</td>
+        </tr>
+        <tr>
+            <td>C16</td>
+            <td rowspan="2">C17 y C22</td>
+            <td>C19</td>
+            <td>C20</td>
+        </tr>
+        <tr>
+            <td>C21</td>
+            <td colspan="3">C23 y C24 y C25</td>
+        </tr>
+    </table>
+    <h3>Encabezado de tabla</h3>
+    <table border="1">
+        <tr>
+            <th>Codigo</th>
+            <th>Nombre</th>
+            <th>Horario</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Microsoft Windows</td>
+            <td>Mañana</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Microsoft Excel Basico</td>
+            <td>Noche</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Microsoft Power Point</td>
+            <td>Tarde</td>
+            <td>110</td>
+        </tr>
+    </table>
+</body>
+</html>

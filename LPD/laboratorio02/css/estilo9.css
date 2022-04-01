@@ -1,0 +1,111 @@
+/* agregamos un relleno general a toda la web */
+*{
+    padding:10px;
+}
+hr{
+    background-color: blue;
+}
+body{
+    background-color:coral;
+}
+.contenedor{
+    background-color:white;
+}
+
+/* agregamos color al parrafo */
+.parrafo1{
+    color:yellowgreen;
+}
+/* alineamos el parrafo a la derecha */
+.parrafo2{
+    text-align: right;
+}
+/* alineamos el parrafo al centro */
+.parrafo3{
+    text-align: center;
+}
+/* alineamos el parrafo al izquierda */
+.parrafo4{
+    text-align: left;
+}
+/* alineamos el parrafo justificado */
+.parrafo5{
+    text-align: justify;
+}
+/* alineamos el parrafo en la parte superior */
+.parrafo6{
+    vertical-align:top;
+    border: solid;
+    border-color: red;
+    padding: 30px;
+}
+/* alineamos el parrafo al medio */
+.parrafo7{
+    vertical-align:middle ;
+    border: solid;
+    border-color: red;
+    padding: 30px;
+}
+/* alineamos el parrafo en la parte inferior */
+.parrafo8{
+    border: solid;
+    border-color: red;
+    padding: 30px;
+}
+/* agregamos decoracion al texto rayado superior */
+.parrafo9{
+    text-decoration: overline;
+}
+/* agregamos decoracion al texto subrayado */
+.parrafo10{
+    text-decoration: underline;
+}
+/* agregamos decoracion al texto tachado */
+.parrafo11{
+    text-decoration: line-through;
+}
+/* texto en mayuscula */
+.parrafo12{
+    text-transform: uppercase;
+}
+/* texto en minuscula */
+.parrafo13{
+    text-transform: lowercase;
+}
+/* texto nombre propia */
+.parrafo14{
+    text-transform: capitalize;
+}
+/* agregamos sangria */
+.parrafo15{
+    text-indent: 80px;
+}
+/* agregamos espacio a la letra */
+.parrafo16{
+    letter-spacing: 10px;
+}
+/* agregamos espacio comprimido a la letra  */
+.parrafo17{
+    letter-spacing: -2px;
+}
+/* agregamos espacio entre lineas  */
+.parrafo18{
+    line-height: 30px;
+}
+/* agregamos espacio entre palabras  */
+.parrafo19{
+    word-spacing: 10px;
+}
+/* agregamos espacio comprimido entre palabras  */
+.parrafo20{
+    word-spacing: -2px;
+}
+/* agregamos sombra al parrafo  */
+.parrafo21{
+    text-shadow: 2px 3px orange;
+}
+/* agregamos difuminado a la sombra al parrafo  */
+.parrafo22{
+    text-shadow: 2px 3px 5px orange;
+}
+
